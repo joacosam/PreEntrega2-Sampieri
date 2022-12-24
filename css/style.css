@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+html {
+font-size: 62.5%;
+}
+
+#navbarNavDropdown2 {
+    display: flex;
+    justify-content: center;
+}
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-item{
+font-size: 14px;}
+
+.nav-link{
+font-size: 25px;
+font-weight: 500;
+}
+
+
+.carousel {
+padding: 1rem 5rem;
+padding-bottom: 10rem;
+}
+
+#carouselExampleFade {
+padding-top: 2rem;
+padding-bottom: 2rem;}
+
+.carousel-item img {
+height: 90vh;
+}
+
+/* footer */
+
+.footer {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+}
+
+.menu-footer li{
+font-size: 1.5;;
+}
+
+.footerTexto{
+padding-top: 1rem;
+padding-left: 6rem;
+font-size: 1.5rem;
+font-style: italic;
+}
+
+
+.nav-footer {
+font-size: 2rem;}
+
+.redes {
+ display: flex;
+ gap: 1.5rem;
+}
+
+.facebook{
+    font-size: 3rem;
+    color: black
+}
+
+.insta {
+    font-size: 3rem;
+    color: black
+}
+
+.whats {
+    font-size: 3rem;
+    color: black
+}
+
+.cardsConteiner {
+display: flex;
+align-items: center;
+justify-content:space-around;
+padding: 0 1rem;
+flex-wrap: wrap;}
+
+/* display none ocultar carrousel */
+
+@media (max-width : 480px) {
+.carousel {display: none; 
+}
+
+.footer {
+flex-wrap: wrap;
+justify-content: center;} 
+}
